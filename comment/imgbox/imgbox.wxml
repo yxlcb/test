@@ -1,0 +1,47 @@
+
+<view class='mainbox'>
+  <view class='box' bindtap='zhaoping'>
+    <text class="iconfont icon-zhaopin2" style="font-size:70rpx;color:{{zhaoping}} "></text>
+    <text class="imgtext">招聘</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-peixun2" style="font-size:70rpx;color:#29A6e8 "></text>
+    <text class="imgtext">培训</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-house1" style="font-size:70rpx;color:#f529b9"></text>
+    <text class="imgtext">租售</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-canyin" style="font-size:70rpx;color:#ff5777"></text>
+    <text class="imgtext">吃货</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-guanggao" style="font-size:70rpx;color:#ff5777"></text>
+    <text class="imgtext">广告</text>
+  </view>
+
+
+</view>
+<view class='mainbox'>
+  <view class='box'>
+    <text class="iconfont icon-yundongjianshen" style="font-size:70rpx;color:#29A6e8"></text>
+    <text class="imgtext">健身</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-yingyezhong" style="font-size:70rpx;color:#ff5777"></text>
+    <text class="imgtext">门店</text>
+  </view>
+  <view class='box'>
+    <text class=" iconfont icon-youhui" style="font-size:70rpx;color:#29A6e8 "></text>
+    <text class="imgtext">打折</text>
+  </view>
+  <view class='box'>
+    <text class="iconfont icon-gongren" style="font-size:70rpx;color:#f529b9"></text>
+    <text class="imgtext">工匠</text>
+  </view>
+  <view class='box'>
+  <text class="iconfont icon-gengduo2" style="font-size:70rpx;color:#f529b9"></text>
+    <text class="imgtext">更多</text>
+  </view>
+</view>

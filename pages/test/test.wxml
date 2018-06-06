@@ -1,0 +1,37 @@
+<view class="line"></view>
+<view class='main'>
+  <text class="lefttop"></text>
+  <text class='lefttxt'>置顶</text>
+  <view class='avatarmainbox'>
+    <view class='avatarbox'>
+      <wxc-avatar class="avatar" src="{{list[0].wxavatar}}"></wxc-avatar>
+      <view class='avatarbox-sub'>
+        <text class="txt">创博网络黄英</text>
+        <text class='txt1'>招聘#招工</text>
+      </view>
+    </view>
+    <text class='txt3'>联系TA</text>
+  </view>
+</view>
+<view class='conent'>
+  <wxc-elip line="3">{{list[0].publishconnent}}</wxc-elip>
+</view>
+<view class="imgbox">
+  <image class='img' src="{{imglist[1]}}"></image>
+  <image class='img' src="{{imglist[1]}}"></image>
+  <image class='img' src="{{imglist[1]}}"></image>
+  <image class='img' src="{{imglist[1]}}"></image>
+  <image class='img' src="{{imglist[1]}}"></image>
+</view>
+<view class="addressbox">
+  <wxc-icon size='22rpx' type="location" color="#999999"></wxc-icon>
+  <text class="addressname">{{list[0].addressname}}</text>
+</view>
+<view>
+  <view class='numbox'>
+    <text class='iconfont icon-liulan1'><text class='num'>{{list[0].seenum}}</text></text>
+    <text class='iconfont icon-dianzan' style='font-size:40rpx'><text class='num'>{{list[0].like}}</text></text>
+    <text class='iconfont icon-pinglun' style='font-size:40rpx'><text class='num'>{{list[0].discussnum}}</text></text>
+    <text class='iconfont  icon-fenxiang1' style='font-size:40rpx'><text class='num'>{{list[0].sharenum}}</text></text>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "wxc-search": "../../packages/@minui/wxc-search/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index",
+    "wxc-list": "../../packages/@minui/wxc-list/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "wxc-flex": "../../packages/@minui/wxc-flex/dist/index",
+    "my-icon": "../../comment/imgbox/imgbox",
+    "wxc-notice": "../../packages/@minui/wxc-notice/dist/index",
+    "wxc-tab": "../../packages/@minui/wxc-tab/dist/index",
+    "wxc-lable": "../../packages/@minui/wxc-label/dist/index",
+    "wxc-panel": "../../packages/@minui/wxc-panel/dist/index",
+    "my-broadcast": "../../comment/swipertext/swipertext"
+  }
+}

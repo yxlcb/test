@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "wxc-avatar": "../../packages/@minui/wxc-avatar/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index",
+    "wxc-list": "../../packages/@minui/wxc-list/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "wxc-elip": "../../packages/@minui/wxc-elip/dist/index"
+  }
+}

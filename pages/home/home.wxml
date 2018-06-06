@@ -1,0 +1,10 @@
+<view class='main'>
+<view class="search-warp">
+ <wxc-search radius="30" class="search" mode="static" placeholder="永兴  租售、招聘、美食 广告"></wxc-search> 
+</view>
+
+<my-icon style='font-size:48rpx'></my-icon>
+
+<my-broadcast></my-broadcast> 
+</view>
+<wxc-icon type="edit" size='96' bindtap='publish'></wxc-icon>

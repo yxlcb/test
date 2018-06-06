@@ -1,0 +1,154 @@
+.line {
+  background-color: #efefef;
+  height: 16rpx;
+  width: 100%;
+  margin-top: 200rpx;
+}
+
+.main {
+  width: 100%;
+  height: 100rpx;
+  position: relative;
+}
+
+.avatarmainbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 100rpx;
+  align-items: center;
+  height: 100rpx;
+  width: 100%;
+  margin-top: 32rpx;
+}
+
+.avatarbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100rpx;
+  margin-left: 32rpx;
+}
+
+.avatarbox-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: right;
+  margin-left: 16rpx;
+}
+
+.avatar {
+  display: block;
+  width: 96rpx;
+  height: 96rpx;
+}
+
+.txt {
+  font-size: 28rpx;
+  display: inline-block;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+
+.txt1 {
+  color: #ff5777;
+  font-size: 24rpx;
+  display: inline-block;
+  line-height: 40rpx;
+}
+
+.txt3 {
+  display: block;
+  color: #ff5777;
+  border: 1px solid red;
+  padding: 5rpx 15rpx;
+  font-size: 24rpx;
+  border-radius: 10%;
+  margin-right: 50rpx;
+}
+
+.lefttop {
+  position: absolute;
+  top: -30rpx;
+  right: 0rpx;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-right: 40px solid #f66;
+  border-bottom: 40px dashed transparent;
+  z-index: 1;
+}
+
+.lefttxt {
+  position: absolute;
+  top: -10rpx;
+  right: 0rpx;
+  color: #fff;
+  z-index: 2;
+  font-size: 22rpx;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg);
+}
+
+.conent {
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  margin-top: 16rpx;
+  font-size: 32rpx;
+  line-height: 48rpx;
+}
+.img{
+  width: 206rpx;
+  height: 206rpx;
+  margin-left: 32rpx;
+  margin-top: 16rpx;
+
+}
+.imgbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap
+ 
+}
+.addressbox{
+  display: flex;
+  flex-direction: row;
+  height:50rpx;
+  margin-top: 16rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  width: 686rpx;
+  justify-content: flex-start;
+  align-items: center;
+}
+.addressname{
+  line-heigt: 80rpx;
+  display: block;
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 16rpx;
+}
+.numbox{
+  width: 686rpx;
+  height: 40rpx;
+  margin-top:16rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.num{
+  margin-left: 16rpx;
+  color: #999999;
+  font-size: 22rpx;
+  
+}

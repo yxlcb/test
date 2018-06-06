@@ -1,0 +1,23 @@
+<view class='mainbox'>
+  <image class='broadcast' src='https://www.7hou.wang/yxwst/broadcast1.jpg'></image>
+  <swiper class='swiper'>
+    <block wx:for="{{broadcast}}" wx:for-index="idx" wx:for-item="item">
+      <swiper-item class="item">
+        <view class=' itembox '>
+          <view class='p '>
+            <text class='itemtitle '>最热</text>
+            <text> {{item}}</text>
+          </view>
+          <view>
+            <text class='itemtitle '>通知</text>
+            <text>{{item}}</text>
+          </view>
+        </view>
+
+
+
+      </swiper-item>
+    </block>
+  </swiper>
+   <image  animation="{{animationData}}" class='broadcastimg' src="https://www.7hou.wang/yxwst/img1.jpg"></image>
+</view>

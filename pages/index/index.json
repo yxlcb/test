@@ -1,0 +1,24 @@
+{
+  "usingComponents": {
+    "wxc-input": "../../packages/@minui/wxc-input/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index",
+    "wxc-list": "../../packages/@minui/wxc-list/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "my-head":"../../comment/head/head"
+
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  }
+  
+
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/test/test",   
+    "pages/logs/logs",
+    "pages/video/video",
+    "comment/imgbox/imgbox",
+    "comment/swipertext/swipertext",
+    "comment/head/head"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "永兴税务信息平台",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "layout-head": "../../common/layout/head",
+    "layout-foot": "../../common/layout/foot",
+    "my-goback": "../../common/goback/goback",
+    "wxc-panel": "../../packages/@minui/wxc-panel/dist/index",
+    "wxc-elip": "../../packages/@minui/wxc-elip/dist/index",
+    "wxc-icon": "../../packages/@minui/wxc-icon/dist/index",
+    "wxc-flex": "../../packages/@minui/wxc-flex/dist/index",
+    "wxc-avatar": "../../packages/@minui/wxc-avatar/dist/index",
+    "wxc-cc": "../../packages/@minui/wxc-cc/dist/index",
+    "wxc-badge": "../../packages/@minui/wxc-badge/dist/index",
+    "wxc-label": "../../packages/@minui/wxc-label/dist/index",
+    "wxc-loadmore": "../../packages/@minui/wxc-loadmore/dist/index",
+    "wxc-price": "../../packages/@minui/wxc-price/dist/index",
+    "wxc-progress": "../../packages/@minui/wxc-progress/dist/index",
+    "wxc-button": "../../packages/@minui/wxc-button/dist/index",
+    "wxc-input": "../../packages/@minui/wxc-input/dist/index",
+    "wxc-list": "../../packages/@minui/wxc-list/dist/index",
+    "wxc-select": "../../packages/@minui/wxc-select/dist/index",
+    "wxc-notice": "../../packages/@minui/wxc-notice/dist/index",
+    "wxc-search": "../../packages/@minui/wxc-search/dist/index",
+    "wxc-rate": "../../packages/@minui/wxc-rate/dist/index",
+    "wxc-abnor": "../../packages/@minui/wxc-abnor/dist/index",
+    "wxc-countdown": "../../packages/@minui/wxc-countdown/dist/index",
+    "wxc-counter": "../../packages/@minui/wxc-counter/dist/index",
+    "wxc-loading": "../../packages/@minui/wxc-loading/dist/index",
+    "wxc-mask": "../../packages/@minui/wxc-mask/dist/index",
+    "wxc-steps": "../../packages/@minui/wxc-steps/dist/index",
+    "wxc-tab": "../../packages/@minui/wxc-tab/dist/index"
+  }
+}

@@ -1,0 +1,30 @@
+<!--文本输入框  -->
+<textarea name="connent" class='textarea' bindinput="textareainput" maxlength="-1" placeholder="请编写发布的具体文字内容" placeholder-style='color:#999'></textarea>
+<!--图片展示缩图区  -->
+<view class="send-more-result-main">
+  <block wx:for="{{chooseFiles}}" wx:for-index="idx">
+    <view class="img-box {{deleteIndex==idx?'deleting':''}} ">
+      <image style='width:120rpx;height:120rpx' src="{{(isvideo[idx]!==1)? item:'../../images/video1.png'}}" mode='aspectFill' catchtap='previewImage' data-idx='{{idx}}'></image>
+      <icon class='remove-icon' type="cancel" size='18' color='#b2b2b2' catchtap='deleletImage' data-idx='{{idx}}'></icon>
+    </view>
+  </block>
+  <!--图片和视频选择器  -->
+  <view class='img-box'>
+    <image class='add' src='add.png' catchtap='chooseImage'></image>
+  </view>
+  <view class='img-box'>
+    <image class='video' src='../../images/video.png' catchtap='bindTapvideo'></image>
+  </view>
+</view>
+<!--分隔线  -->
+<view class="line"></view>
+<!--表单位提交部分  -->
+<wxc-input icon="address" value="{{address}}" placeholder='当前位置' disabled='{{true}}' catchtap='maponclick'></wxc-input>
+<wxc-input name="tel" icon="group" bindinput='telephoneinput' type='number' maxlength="11" placeholder='请输入您联系电话'></wxc-input>
+<wxc-input icon="feedback" disabled='{{true}}' placeholder='阅读免责条款'></wxc-input>
+
+<view class="input input__combine">
+  <text>我要置顶</text>
+  <switch color='#ff0777' checked bindchange="switch1Change" />
+</view>
+<button size='mini' style='background:#ff5777;position: relative;bottom:0rpx' bindgetuserinfo="getuserinfo" open-type='getUserInfo' type='primary'>发布信息</button>

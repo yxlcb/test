@@ -1,0 +1,158 @@
+page {
+  width: 100%;
+  background-color: #fff;
+}
+
+.line {
+  background-color: #efefef;
+  width: 100%;
+  height: 30rpx;
+}
+
+.section {
+  width: 100%;
+  height: 200rpx;
+}
+
+.textarea {
+  background-color: #fff;
+  width: 686rpx;
+  height: 300rpx;
+  font-size: 32rpx;
+  margin-left:32rpx;
+  padding: 10rpx;
+  line-height: 48rpx;
+  
+}
+
+.add {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.video {
+  width: 100rpx;
+  height: 70rpx;
+  margin-right: 32rpx;
+}
+
+.addbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+
+
+.send-more-result-main {
+  display: flex;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: space-start;
+  align-items: center;
+  flex-wrap: wrap;  
+  width: 100%;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+}
+
+.send-more-result-main image {
+  height: 100%;
+  width: 100%;
+  margin-right: 16rpx;
+}
+
+.remove-icon {
+  position: absolute;
+  right: 5rpx;
+  top: 5rpx;
+}
+
+.img-box {
+  position: relative;
+  height: 120rpx;
+  width: 120rpx;
+  margin-right: 16rpx;
+}
+
+.img-box.deleting {
+  animation: deleting 1s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes deleting {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+
+.address-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 32rpx;
+}
+
+.address-text {
+  font-size: 32rpx;
+  color: #999;
+}
+
+.imgicon {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 8rpx;
+}
+
+.input {
+}
+
+.input__combine {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.4;
+  padding: 28rpx 30rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.input__combine::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e5e5e5;
+  border-bottom-width: 1rpx;
+}
+
+.buttonbox {
+  position: relative;
+  top:0rpx;
+  background-color: #ff5777;
+}

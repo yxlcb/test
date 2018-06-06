@@ -1,0 +1,13 @@
+.pagetop{
+  width: 100%;
+  height: 40rpx;
+  background-color: #cf4218
+}
+.pagetop1{
+  width: 100%;
+  height: 96rpx;
+ background: -webkit-linear-gradient(right, #ff5100 , #ff9000); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ff5100 , #ff9000); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #ff5100 , #ff9000); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right, #ff5100 , #ff9000); /* 标准的语法 */
+}
